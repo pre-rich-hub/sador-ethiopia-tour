@@ -5,6 +5,7 @@ import { img } from '@/lib/images'
 import { SectionHeader, Accent } from '@/components/ui/SectionHeader'
 import { Reveal } from '@/components/ui/Reveal'
 import { SunArc } from '@/components/ui/SunArc'
+import { ExploreButton } from '@/components/ui/ExploreButton'
 
 const festivals = [
   { key: 'genna', image: 'genna-lalibela-pilgrims', href: '/tours/genna-ethiopian-christmas-lalibela' },
@@ -15,6 +16,7 @@ const festivals = [
 
 export function FestivalsBand() {
   const t = useTranslations('Home.festivals')
+  const tc = useTranslations('Common')
   return (
     <section className="relative overflow-hidden bg-ink py-24 text-sand sm:py-32">
       <SunArc className="absolute -left-40 bottom-0 w-[700px] opacity-[0.08]" />
@@ -33,6 +35,7 @@ export function FestivalsBand() {
                   <div className="absolute inset-x-5 bottom-5 text-center">
                     <h3 className="font-serif text-3xl">{t(`items.${f.key}.name`)}</h3>
                     <p className="mt-2 text-sm leading-relaxed text-sand/75">{t(`items.${f.key}.body`)}</p>
+                    <ExploreButton label={tc('exploreMore')} tone="glass" className="mt-5" />
                   </div>
                 </div>
               </Link>
