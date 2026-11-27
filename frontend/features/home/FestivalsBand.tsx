@@ -10,7 +10,7 @@ import { ExploreButton } from '@/components/ui/ExploreButton'
 const festivals = [
   { key: 'genna', image: 'genna-lalibela-pilgrims', href: '/tours/genna-ethiopian-christmas-lalibela' },
   { key: 'timket', image: 'timket-procession', href: '/tours/timket-festival-gondar' },
-  { key: 'ashenda', image: 'new-year-girls', href: '/activities/ashenda' },
+  { key: 'ashenda', image: 'ashenda-group', href: '/activities/ashenda' },
   { key: 'meskel', image: 'meskel-damera', href: '/activities/meskel' },
 ] as const
 
