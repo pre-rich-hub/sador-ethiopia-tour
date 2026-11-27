@@ -43,15 +43,15 @@ export function Intro() {
             </h2>
             <p className="mt-6 text-pretty text-lg leading-relaxed text-muted">{t('body')}</p>
           </Reveal>
-          <ul className="mx-auto mt-10 grid max-w-xl gap-x-8 gap-y-8 sm:grid-cols-2">
+          <ul className="mx-auto mt-10 grid max-w-xl grid-cols-2 gap-x-4 gap-y-6 rounded-[1.75rem] bg-sand-deep/50 p-5 sm:gap-x-8 sm:gap-y-8 sm:bg-transparent sm:p-0">
             {pillars.map(({ key, Icon }, n) => (
-              <Reveal as="li" key={key} delay={n * 80} className="flex flex-col items-center gap-3">
-                <span className="grid size-11 shrink-0 place-items-center rounded-full bg-sand-deep text-muted">
-                  <Icon className="size-5" />
+              <Reveal as="li" key={key} delay={n * 80} className="flex flex-col items-center gap-2 sm:gap-3">
+                <span className="grid size-9 shrink-0 place-items-center rounded-full bg-sand text-muted sm:size-11 sm:bg-sand-deep">
+                  <Icon className="size-4 sm:size-5" />
                 </span>
                 <span>
-                  <span className="block font-serif text-xl">{t(`pillars.${key}.title`)}</span>
-                  <span className="mt-1 block text-sm leading-relaxed text-muted">{t(`pillars.${key}.body`)}</span>
+                  <span className="block font-serif text-lg font-semibold leading-tight sm:text-xl sm:font-normal">{t(`pillars.${key}.title`)}</span>
+                  <span className="mt-1 block text-[0.8rem] leading-snug text-ink/70 sm:text-sm sm:text-muted sm:leading-relaxed">{t(`pillars.${key}.body`)}</span>
                 </span>
               </Reveal>
             ))}

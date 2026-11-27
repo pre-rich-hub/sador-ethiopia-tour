@@ -21,7 +21,7 @@ export function Footer() {
 
   return (
     // Deep green with the illustrated Ethiopian skyline from the original Sador site along the bottom.
-    <footer className="relative overflow-hidden bg-[#032d23] bg-[url(/images/footer-skyline.jpg)] bg-[length:auto_170px] bg-bottom sm:bg-[length:100%_auto] bg-no-repeat text-sand">
+    <footer className="relative overflow-hidden bg-[#032d23] bg-[url(/images/footer-skyline.jpg)] bg-[length:auto_230px] bg-bottom sm:bg-[length:100%_auto] bg-no-repeat text-sand">
       <SunArc className="absolute -right-24 top-40 w-[520px] opacity-[0.07]" />
       <div className="relative border-b border-sand/10">
         <div className="container-x grid items-center gap-8 py-12 lg:grid-cols-[auto_1fr_auto] lg:gap-16">
@@ -96,7 +96,8 @@ export function Footer() {
       </div>
 
       {/* Soft dark fade over the skyline artwork so the bottom lines stay readable. */}
-      <div aria-hidden className="pointer-events-none absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-black/85 via-black/55 to-transparent" />
+      {/* Mobile: the fade sits behind the text only, leaving the skyline strip below it clear. */}
+      <div aria-hidden className="pointer-events-none absolute inset-x-0 bottom-32 h-48 bg-gradient-to-t from-black/60 via-black/35 to-transparent sm:bottom-0 sm:h-44 sm:from-black/85 sm:via-black/55" />
       <div className="container-x relative">
         <FooterTrust />
         <div className="relative flex flex-col gap-2 border-t border-sand/15 py-4 text-sm font-medium text-sand [text-shadow:0_1px_4px_rgb(0_0_0/0.9)] md:flex-row md:items-center md:justify-between">
@@ -111,6 +112,8 @@ export function Footer() {
             Melba Technology
           </a>
         </p>
+        {/* Mobile: leave room so the skyline artwork shows unobstructed under the text. */}
+        <div aria-hidden className="h-32 sm:hidden" />
       </div>
     </footer>
   )

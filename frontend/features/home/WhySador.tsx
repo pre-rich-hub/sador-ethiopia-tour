@@ -22,12 +22,12 @@ export function WhySador() {
           <h2 className="mt-5 text-balance text-4xl leading-[1.06] sm:text-5xl">{t.rich('title', { em: (c) => <Accent>{c}</Accent> })}</h2>
           <p className="mt-6 text-lg leading-relaxed text-muted">{t('lede')}</p>
         </Reveal>
-        <ul className="grid gap-px overflow-hidden rounded-[2rem] bg-line sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="grid grid-cols-2 gap-px overflow-hidden rounded-[1.75rem] bg-line sm:rounded-[2rem] lg:grid-cols-3">
           {reasons.map(({ key, Icon }, i) => (
-            <Reveal as="li" key={key} delay={(i % 2) * 80} className="flex flex-col items-center bg-sand p-8 text-center sm:p-9">
-              <Icon className="size-7 text-sun" strokeWidth={1.6} />
-              <h3 className="mt-5 font-serif text-2xl">{t(`items.${key}.title`)}</h3>
-              <p className="mt-3 text-sm leading-relaxed text-muted">{t(`items.${key}.body`)}</p>
+            <Reveal as="li" key={key} delay={(i % 2) * 80} className="flex flex-col items-center bg-sand px-3 py-6 text-center sm:p-9">
+              <Icon className="size-6 text-sun sm:size-7" strokeWidth={1.6} />
+              <h3 className="mt-3 font-serif text-lg font-semibold leading-tight sm:mt-5 sm:text-2xl sm:font-normal">{t(`items.${key}.title`)}</h3>
+              <p className="mt-2 text-[0.8rem] leading-snug text-ink/70 sm:mt-3 sm:text-sm sm:leading-relaxed sm:text-muted">{t(`items.${key}.body`)}</p>
             </Reveal>
           ))}
         </ul>

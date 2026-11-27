@@ -8,6 +8,7 @@ import { cn } from '@/lib/cn'
 import { SectionHeader, Accent } from '@/components/ui/SectionHeader'
 import { Reveal } from '@/components/ui/Reveal'
 import { ExploreButton } from '@/components/ui/ExploreButton'
+import { AutoScrollRow } from '@/components/ui/AutoScrollRow'
 
 /** Balanced grid: three cards on the first row, four on the second (lg). */
 const layout = (i: number) => (i < 3 ? 'lg:col-span-4 lg:h-[360px]' : 'lg:col-span-3 lg:h-[320px]')
@@ -19,9 +20,10 @@ export function RegionsBento() {
   return (
     <section className="container-x py-24 sm:py-32">
       <SectionHeader align="center" kicker={t('kicker')} title={t.rich('title', { em: (c) => <Accent>{c}</Accent> })} lede={t('lede')} />
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-12 lg:gap-5">
+      {/* Mobile: swipeable row that advances on its own. sm+: grid. */}
+      <AutoScrollRow className="scrollbar-none -mx-5 flex snap-x snap-mandatory scroll-px-5 gap-4 overflow-x-auto px-5 pb-2 sm:mx-0 sm:grid sm:grid-cols-2 sm:overflow-visible sm:px-0 sm:pb-0 lg:grid-cols-12 lg:gap-5">
         {regions.map((r, i) => (
-          <Reveal key={r.slug} delay={(i % 3) * 70} className={cn('group relative h-[260px] overflow-hidden rounded-[2rem] sm:h-[300px]', layout(i), i === 6 && 'sm:col-span-2 lg:col-span-3')}>
+          <Reveal key={r.slug} delay={(i % 3) * 70} className={cn('group relative h-[340px] w-[82%] shrink-0 snap-start overflow-hidden rounded-[2rem] sm:h-[300px] sm:w-auto', layout(i), i === 6 && 'sm:col-span-2 lg:col-span-3')}>
             <Link href={`/destinations/${r.slug}`} className="absolute inset-0 flex flex-col justify-end p-6 text-sand sm:p-8">
               <Image src={img(r.image)} alt="" fill sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw" className="-z-20 object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-105" />
               <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink/90 via-ink/25 to-transparent" />
@@ -38,7 +40,7 @@ export function RegionsBento() {
             </Link>
           </Reveal>
         ))}
-      </div>
+      </AutoScrollRow>
     </section>
   )
 }

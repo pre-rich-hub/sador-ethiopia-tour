@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useTranslations } from 'next-intl'
 import type { TourSummary, TourCategory } from '@/lib/content/types'
 import { TourCard } from '@/features/tours/TourCard'
@@ -14,6 +14,16 @@ export function JourneysByStyle({ tours }: { tours: TourSummary[] }) {
   const tc = useTranslations('Categories')
   const [active, setActive] = useState<TourCategory>('historic-north')
   const list = tours.filter((x) => x.category === active || (active === 'eastern' && x.category === 'desert')).slice(0, 3)
+  const row = useRef<HTMLDivElement>(null)
+
+  // Mobile carousel: start with the middle card centred (no-op when the row isn't scrollable).
+  useEffect(() => {
+    const el = row.current
+    if (!el || el.scrollWidth <= el.clientWidth) return
+    const mid = el.children[Math.floor(el.children.length / 2)] as HTMLElement | undefined
+    if (!mid) return
+    el.scrollLeft = mid.offsetLeft - (el.clientWidth - mid.offsetWidth) / 2
+  }, [active, list.length])
 
   return (
     <div>
@@ -34,9 +44,12 @@ export function JourneysByStyle({ tours }: { tours: TourSummary[] }) {
           </button>
         ))}
       </div>
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+      {/* Mobile: swipeable row with snap. sm+: grid. */}
+      <div ref={row} className="scrollbar-none relative -mx-5 flex snap-x snap-mandatory scroll-px-5 gap-4 overflow-x-auto px-5 pb-2 sm:mx-0 sm:grid sm:grid-cols-2 sm:gap-6 sm:overflow-visible sm:px-0 sm:pb-0 lg:grid-cols-3 lg:gap-8">
         {list.map((tour) => (
-          <TourCard key={tour.slug} tour={tour} />
+          <div key={tour.slug} className="w-[82%] shrink-0 snap-center sm:w-auto">
+            <TourCard tour={tour} />
+          </div>
         ))}
       </div>
       <div className="mt-12 flex justify-center">

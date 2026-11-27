@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { useLocale, useTranslations } from 'next-intl'
 import { ChevronDown, Globe, Menu, X, Phone } from 'lucide-react'
 import { Link, usePathname, useRouter } from '@/i18n/navigation'
@@ -125,7 +126,7 @@ export function Header() {
           <LanguageSwitcher solid={solid} />
           <Link
             href="/contact"
-            className="hidden rounded-full bg-sun px-5 py-2.5 text-sm font-semibold text-ink shadow-[0_8px_24px_-12px_rgba(232,112,42,0.9)] transition-transform hover:-translate-y-0.5 sm:inline-flex"
+            className="hidden rounded-full bg-sun px-5 py-2.5 text-sm font-semibold text-ink shadow-[0_8px_24px_-12px_rgba(223,133,80,0.55)] transition-transform hover:-translate-y-0.5 sm:inline-flex"
           >
             {t('plan')}
           </Link>
@@ -319,6 +320,8 @@ function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
   const t = useTranslations('Nav')
   const tr = useTranslations('Regions')
   const [section, setSection] = useState<string | null>('destinations')
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => setMounted(true), [])
 
   const groups = [
     { key: 'destinations', label: t('destinations'), links: [{ href: '/destinations', label: t('allDestinations') }, ...navDestinations.map((d) => ({ href: d.href, label: tr(`${d.key}.name`) }))] },
@@ -327,7 +330,10 @@ function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
     { key: 'about', label: t('about'), links: navAbout.map((a) => ({ href: a.href, label: t(`aboutLinks.${a.key}`) })) },
   ]
 
-  return (
+  // Portal to <body>: the header's backdrop-filter would otherwise become the
+  // containing block for this fixed overlay and clip it to the 72px bar.
+  if (!mounted) return null
+  return createPortal(
     <div
       className={cn('fixed inset-0 z-[60] bg-ink/40 backdrop-blur-sm transition-opacity lg:hidden', open ? 'opacity-100' : 'pointer-events-none opacity-0')}
       onClick={onClose}
@@ -395,6 +401,7 @@ function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
           </div>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body,
   )
 }
