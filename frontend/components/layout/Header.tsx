@@ -65,11 +65,12 @@ export function Header() {
     closeTimer.current = setTimeout(() => setOpen(null), 140)
   }
 
-  const items: { key: Exclude<Menu, null>; label: string }[] = [
-    { key: 'destinations', label: t('destinations') },
-    { key: 'itineraries', label: t('tours') },
-    { key: 'activities', label: t('experiences') },
-    { key: 'about', label: t('about') },
+  // Hovering a label opens its menu; clicking it goes to that section's page.
+  const items: { key: Exclude<Menu, null>; label: string; href: string }[] = [
+    { key: 'destinations', label: t('destinations'), href: '/destinations' },
+    { key: 'itineraries', label: t('tours'), href: '/tours' },
+    { key: 'activities', label: t('experiences'), href: '/activities' },
+    { key: 'about', label: t('about'), href: '/about' },
   ]
 
   return (
@@ -81,24 +82,27 @@ export function Header() {
       onMouseLeave={leave}
     >
       <div className="container-x flex h-[72px] items-center justify-between gap-6 lg:h-20">
-        <Link href="/" className="flex items-center gap-3" aria-label={site.name}>
-          <Image src="/brand/sador-emblem.png" alt="" width={46} height={40} priority className="h-9 w-auto lg:h-10" />
-          <span className="leading-none">
-            <span className="block font-serif text-[1.35rem] font-semibold tracking-[0.08em]">SADOR</span>
-            <span className={cn('block text-[0.58rem] font-semibold uppercase tracking-[0.32em]', solid ? 'text-muted' : 'text-sand/75')}>
-              Ethiopia Tours
-            </span>
-          </span>
+        <Link href="/" className="flex items-center gap-2" aria-label={site.name}>
+          <Image src="/brand/sador-emblem.png" alt="" width={47} height={42} priority className="h-11 w-auto lg:h-12" />
+          {/* Script wordmark: dark on the solid bar, light over the hero photo. */}
+          <Image
+            src={solid ? '/brand/sador-wordmark.png' : '/brand/sador-wordmark-white.png'}
+            alt=""
+            width={613}
+            height={200}
+            priority
+            className="h-9 w-auto lg:h-10"
+          />
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label={t('main')}>
           {items.map((it) => (
-            <button
+            <Link
               key={it.key}
-              type="button"
+              href={it.href}
               onMouseEnter={() => enter(it.key)}
               onFocus={() => enter(it.key)}
-              onClick={() => setOpen(open === it.key ? null : it.key)}
+              onClick={() => setOpen(null)}
               aria-expanded={open === it.key}
               className={cn(
                 'flex items-center gap-1 rounded-full px-4 py-2 text-[0.9rem] font-medium transition-colors',
@@ -107,7 +111,7 @@ export function Header() {
             >
               {it.label}
               <ChevronDown className={cn('size-3.5 transition-transform', open === it.key && 'rotate-180')} />
-            </button>
+            </Link>
           ))}
           <Link href="/blog" className="rounded-full px-4 py-2 text-[0.9rem] font-medium" onMouseEnter={() => enter(null)}>
             {t('blog')}

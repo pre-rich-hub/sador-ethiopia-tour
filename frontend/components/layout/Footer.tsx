@@ -35,11 +35,8 @@ export function Footer() {
       <div className="container-x relative grid gap-10 pb-12 pt-16 lg:grid-cols-[1.3fr_1fr_1fr_1fr] lg:gap-12">
         <div>
           <Link href="/" className="inline-flex items-center gap-3">
-            <Image src="/brand/sador-emblem.png" alt="" width={52} height={46} className="h-12 w-auto" />
-            <span className="leading-none">
-              <span className="block font-serif text-2xl font-semibold tracking-[0.08em]">SADOR</span>
-              <span className="block text-[0.6rem] font-semibold uppercase tracking-[0.32em] text-sand/60">Ethiopia Tours</span>
-            </span>
+            <Image src="/brand/sador-emblem.png" alt="" width={59} height={52} className="h-14 w-auto" />
+            <Image src="/brand/sador-wordmark-white.png" alt="Sador Ethiopia Tours" width={613} height={200} className="h-11 w-auto" />
           </Link>
           <p className="mt-6 max-w-sm text-sm leading-relaxed text-sand/65">{t('about')}</p>
           <ul className="mt-7 space-y-3 text-sm text-sand/80">
