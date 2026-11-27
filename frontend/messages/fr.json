@@ -532,15 +532,27 @@
     "vehicles": {
       "landcruiser": {
         "class": "4×4 d’expédition",
-        "name": "Toyota Land Cruiser",
-        "body": "Le véhicule d’expédition éthiopien par excellence : robuste, climatisé et conçu pour les longues distances sur routes difficiles.",
+        "name": "Toyota Land Cruiser 70",
+        "body": "Le véhicule d’expédition éthiopien par excellence : robuste, climatisé, équipé d’un snorkel pour les passages de rivières et conçu pour les longues distances sur pistes.",
         "bestFor": "Danakil, vallée de l’Omo, monts Simien et Balé"
+      },
+      "landcruiser300": {
+        "class": "4×4 de luxe",
+        "name": "Toyota Land Cruiser 300",
+        "body": "Notre 4×4 le plus raffiné : silencieux, spacieux et confortable sur les longs trajets, tout en restant à l’aise sur les routes difficiles des hauts plateaux.",
+        "bestFor": "Voyages VIP, Nord historique, monts Balé et Simien"
       },
       "prado": {
         "class": "4×4 confort",
         "name": "Toyota Land Cruiser Prado",
         "body": "Un 4×4 plus doux et raffiné pour les couples et petites familles sur la route historique et les routes d’altitude.",
         "bestFor": "Nord historique, lacs du Rift, excursions"
+      },
+      "id6": {
+        "class": "SUV électrique",
+        "name": "Volkswagen ID.6",
+        "body": "Un SUV silencieux et sans émissions, à l’habitacle spacieux – un choix moderne et confortable à Addis-Abeba et ses environs.",
+        "bestFor": "Visites de ville, transferts aéroport, voyages d’affaires"
       },
       "hiace": {
         "class": "Minibus",

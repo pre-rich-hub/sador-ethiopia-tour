@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { Briefcase, Check, Gauge, Users } from 'lucide-react'
 import { fleet, fleetCredits } from '@/content/fleet'
@@ -8,6 +7,7 @@ import { Reveal } from '@/components/ui/Reveal'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { ButtonLink } from '@/components/ui/ButtonLink'
 import { PlanCta } from '@/components/sections/PlanCta'
+import { FleetGallery } from '@/components/ui/FleetGallery'
 
 const INCLUDED = ['driver', 'fuel', 'allowance', 'water', 'insurance', 'support'] as const
 const STEPS = ['tell', 'quote', 'go'] as const
@@ -36,12 +36,11 @@ export default async function CarRentalPage({ params }: { params: Promise<{ loca
         <div className="grid gap-6 md:grid-cols-2 lg:gap-8">
           {fleet.map((v, i) => (
             <Reveal key={v.key} delay={(i % 2) * 80} className="flex flex-col overflow-hidden rounded-[1.75rem] bg-paper ring-1 ring-line">
-              <div className="relative aspect-[16/9]">
-                <Image src={`/images/fleet/${v.key}.jpg`} alt={t(`vehicles.${v.key}.name`)} fill sizes="(max-width:768px) 100vw, 50vw" className="object-cover" />
+              <FleetGallery photos={v.photos} studio={v.studio} alt={t(`vehicles.${v.key}.name`)}>
                 <span className="absolute left-4 top-4 rounded-full bg-ink/80 px-3 py-1.5 text-xs font-semibold text-sand backdrop-blur">
                   {t(`vehicles.${v.key}.class`)}
                 </span>
-              </div>
+              </FleetGallery>
               <div className="flex flex-1 flex-col p-7">
                 <h3 className="font-serif text-3xl">{t(`vehicles.${v.key}.name`)}</h3>
                 <p className="mt-3 leading-relaxed text-muted">{t(`vehicles.${v.key}.body`)}</p>

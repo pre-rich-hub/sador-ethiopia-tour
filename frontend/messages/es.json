@@ -532,15 +532,27 @@
     "vehicles": {
       "landcruiser": {
         "class": "4×4 de expedición",
-        "name": "Toyota Land Cruiser",
-        "body": "El clásico vehículo de expedición etíope: robusto, con aire acondicionado y hecho para largas distancias por carreteras difíciles.",
+        "name": "Toyota Land Cruiser 70",
+        "body": "El clásico vehículo de expedición etíope: robusto, con aire acondicionado, snorkel para cruzar ríos y preparado para largas distancias por caminos difíciles.",
         "bestFor": "Danakil, valle del Omo, montañas Simien y Bale"
+      },
+      "landcruiser300": {
+        "class": "4×4 de lujo",
+        "name": "Toyota Land Cruiser 300",
+        "body": "Nuestro 4×4 más refinado: silencioso, amplio y cómodo en trayectos largos, pero totalmente capaz en las carreteras difíciles de las tierras altas.",
+        "bestFor": "Viajes VIP, Norte histórico, montañas de Bale y Simien"
       },
       "prado": {
         "class": "4×4 confort",
         "name": "Toyota Land Cruiser Prado",
         "body": "Un 4×4 más suave y refinado para parejas y familias pequeñas en la Ruta Histórica y las carreteras de montaña.",
         "bestFor": "Norte histórico, lagos del Rift, excursiones"
+      },
+      "id6": {
+        "class": "SUV eléctrico",
+        "name": "Volkswagen ID.6",
+        "body": "Un SUV silencioso y sin emisiones, con un interior espacioso: una opción moderna y cómoda en Adís Abeba y alrededores.",
+        "bestFor": "Tours por la ciudad, traslados al aeropuerto, viajes de negocios"
       },
       "hiace": {
         "class": "Furgoneta",

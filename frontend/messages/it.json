@@ -532,15 +532,27 @@
     "vehicles": {
       "landcruiser": {
         "class": "4×4 da spedizione",
-        "name": "Toyota Land Cruiser",
-        "body": "Il classico veicolo da spedizione etiope: robusto, climatizzato e pensato per lunghe distanze su strade difficili.",
+        "name": "Toyota Land Cruiser 70",
+        "body": "Il classico veicolo da spedizione etiope: robusto, climatizzato, con snorkel per i guadi e costruito per lunghe distanze su strade difficili.",
         "bestFor": "Dancalia, valle dell’Omo, monti Simien e Bale"
+      },
+      "landcruiser300": {
+        "class": "4×4 di lusso",
+        "name": "Toyota Land Cruiser 300",
+        "body": "Il nostro 4×4 più raffinato: silenzioso, spazioso e comodo nei lunghi trasferimenti, ma pienamente capace sulle strade difficili degli altopiani.",
+        "bestFor": "Viaggi VIP, Nord storico, monti Bale e Simien"
       },
       "prado": {
         "class": "4×4 comfort",
         "name": "Toyota Land Cruiser Prado",
         "body": "Un 4×4 più morbido e raffinato per coppie e piccole famiglie sulla Rotta storica e sulle strade d’altopiano.",
         "bestFor": "Nord storico, laghi della Rift Valley, escursioni"
+      },
+      "id6": {
+        "class": "SUV elettrico",
+        "name": "Volkswagen ID.6",
+        "body": "Un SUV silenzioso e a emissioni zero, con un abitacolo spazioso: una scelta moderna e confortevole ad Addis Abeba e dintorni.",
+        "bestFor": "Tour della città, transfer aeroportuali, viaggi d’affari"
       },
       "hiace": {
         "class": "Minivan",

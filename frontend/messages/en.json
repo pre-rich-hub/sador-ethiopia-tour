@@ -532,15 +532,27 @@
     "vehicles": {
       "landcruiser": {
         "class": "Expedition 4×4",
-        "name": "Toyota Land Cruiser",
-        "body": "The classic Ethiopian expedition vehicle: rugged, air-conditioned and built for long distances on rough roads.",
+        "name": "Toyota Land Cruiser 70",
+        "body": "The classic Ethiopian expedition vehicle: rugged, air-conditioned, with a snorkel for river crossings and built for long distances on rough roads.",
         "bestFor": "Danakil, Omo Valley, Simien and Bale Mountains"
+      },
+      "landcruiser300": {
+        "class": "Luxury 4×4",
+        "name": "Toyota Land Cruiser 300",
+        "body": "Our most refined 4×4: quiet, spacious and comfortable on long drives, yet fully capable on rough highland roads.",
+        "bestFor": "VIP travel, Historic North, Bale and Simien Mountains"
       },
       "prado": {
         "class": "Comfort 4×4",
         "name": "Toyota Land Cruiser Prado",
         "body": "A smoother, more refined 4×4 for couples and small families on the Historic Route and highland roads.",
         "bestFor": "Historic North, Rift Valley lakes, day trips"
+      },
+      "id6": {
+        "class": "Electric SUV",
+        "name": "Volkswagen ID.6",
+        "body": "A quiet, zero-emission SUV with a spacious cabin — a comfortable, modern choice in and around Addis Ababa.",
+        "bestFor": "City tours, airport transfers, business travel"
       },
       "hiace": {
         "class": "Minivan",
