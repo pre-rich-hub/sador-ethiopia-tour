@@ -18,9 +18,9 @@ export function FooterCol({ title, children }: { title: string; children: React.
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
         aria-controls={id}
-        className="kicker flex w-full items-center justify-between py-5 text-sand/70 lg:pointer-events-none lg:mb-5 lg:py-0"
+        className="kicker flex w-full items-center py-5 text-sand/70 lg:pointer-events-none lg:mb-5 lg:py-0"
       >
-        {title}
+        <span className="flex-1 text-left">{title}</span>
         <ChevronDown className={cn('size-4 transition-transform duration-300 lg:hidden', open && 'rotate-180')} />
       </button>
       <ul id={id} className={cn('space-y-2.5 pb-6 lg:block lg:pb-0', open ? 'block' : 'hidden')}>
