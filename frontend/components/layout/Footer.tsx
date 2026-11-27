@@ -20,7 +20,8 @@ export function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <footer className="relative overflow-hidden bg-ink text-sand">
+    // Deep green with the illustrated Ethiopian skyline from the original Sador site along the bottom.
+    <footer className="relative overflow-hidden bg-[#032d23] bg-[url(/images/footer-skyline.jpg)] bg-[length:auto_170px] bg-bottom sm:bg-[length:100%_auto] bg-no-repeat text-sand">
       <SunArc className="absolute -right-24 top-40 w-[520px] opacity-[0.07]" />
       <div className="relative border-b border-sand/10">
         <div className="container-x grid items-center gap-8 py-12 lg:grid-cols-[auto_1fr_auto] lg:gap-16">
@@ -94,15 +95,17 @@ export function Footer() {
         </div>
       </div>
 
+      {/* Soft dark fade over the skyline artwork so the bottom lines stay readable. */}
+      <div aria-hidden className="pointer-events-none absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-black/85 via-black/55 to-transparent" />
       <div className="container-x relative">
         <FooterTrust />
-        <div className="flex flex-col gap-2 border-t border-sand/10 py-4 md:flex-row md:items-center md:justify-between">
-          <p className="text-xs text-sand/50">{site.address.city}, {site.address.country}</p>
-          <p className="text-xs text-sand/50">
+        <div className="relative flex flex-col gap-2 border-t border-sand/15 py-4 text-sm font-medium text-sand [text-shadow:0_1px_4px_rgb(0_0_0/0.9)] md:flex-row md:items-center md:justify-between">
+          <p>{site.address.city}, {site.address.country}</p>
+          <p>
             © {year} {site.name}. {t('rights')}
           </p>
         </div>
-        <p className="border-t border-sand/10 py-4 text-center text-sm font-medium text-sand/80">
+        <p className="relative border-t border-sand/15 py-4 text-center text-sm font-semibold text-sand [text-shadow:0_1px_4px_rgb(0_0_0/0.9)]">
           Built by{' '}
           <a href="https://melba.et" target="_blank" rel="noopener" className="font-bold text-sun underline-offset-4 transition-colors hover:text-sand hover:underline">
             Melba Technology
