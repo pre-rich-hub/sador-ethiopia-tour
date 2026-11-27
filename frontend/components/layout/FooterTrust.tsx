@@ -10,7 +10,7 @@ const tile = 'flex h-20 items-center justify-center overflow-hidden rounded-xl b
 export function FooterTrust() {
   const t = useTranslations('Footer')
   return (
-    <div className="grid gap-10 border-t border-sand/10 py-12 lg:grid-cols-[4fr_3fr] lg:gap-16">
+    <div className="grid gap-10 border-t border-sand/10 pb-6 pt-12 lg:grid-cols-[4fr_3fr] lg:gap-16">
       <div>
         <p className="font-serif text-3xl">{t('platformsTitle')}</p>
         <p className="mt-2 text-sm text-sand/60">{t('platformsBody')}</p>

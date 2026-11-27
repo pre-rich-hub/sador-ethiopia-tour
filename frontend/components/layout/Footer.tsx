@@ -99,12 +99,18 @@ export function Footer() {
 
       <div className="container-x relative">
         <FooterTrust />
-        <div className="flex flex-col gap-6 border-t border-sand/10 py-8 md:flex-row md:items-center md:justify-between">
+        <div className="flex flex-col gap-2 border-t border-sand/10 py-4 md:flex-row md:items-center md:justify-between">
           <p className="text-xs text-sand/50">{site.address.city}, {site.address.country}</p>
           <p className="text-xs text-sand/50">
             © {year} {site.name}. {t('rights')}
           </p>
         </div>
+        <p className="border-t border-sand/10 py-4 text-center text-sm font-medium text-sand/80">
+          Built by{' '}
+          <a href="https://melba.et" target="_blank" rel="noopener" className="font-bold text-sun underline-offset-4 transition-colors hover:text-sand hover:underline">
+            Melba Technology
+          </a>
+        </p>
       </div>
     </footer>
   )
