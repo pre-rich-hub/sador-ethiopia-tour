@@ -38,12 +38,12 @@
   --ink-soft: #2b241d;
   --muted: #6e6255;
   --line: #e2d6c3;
-  --sun: #e8702a;
-  --sun-deep: #c9561a;
+  --sun: #df8550;
+  --sun-deep: #c4683a;
   --amber: #f3b23b;
   --clay: #9a4521;
   --acacia: #3d4a2c;
-  --sun-gradient: linear-gradient(120deg, #e4612a 0%, #ef8a2f 45%, #f5bf45 100%);
+  --sun-gradient: linear-gradient(120deg, #e08452 0%, #eba062 45%, #f2c77e 100%);
 }
 
 @layer base {

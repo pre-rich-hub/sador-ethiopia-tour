@@ -6,7 +6,7 @@ import { cn } from '@/lib/cn'
 type Variant = 'sun' | 'ink' | 'outline' | 'glass'
 
 const styles: Record<Variant, string> = {
-  sun: 'bg-sun text-ink shadow-[0_10px_30px_-12px_rgba(232,112,42,0.8)] hover:shadow-[0_14px_34px_-10px_rgba(232,112,42,0.9)]',
+  sun: 'bg-sun text-ink shadow-[0_10px_30px_-12px_rgba(223,133,80,0.5)] hover:shadow-[0_14px_34px_-10px_rgba(223,133,80,0.55)]',
   ink: 'bg-ink text-sand hover:bg-ink-soft',
   outline: 'border border-ink/20 text-ink hover:border-ink hover:bg-ink hover:text-sand',
   glass: 'border border-white/35 bg-white/10 text-white backdrop-blur-md hover:bg-white/20',
