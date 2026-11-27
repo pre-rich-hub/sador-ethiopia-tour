@@ -1,7 +1,5 @@
-import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { BadgePercent, Clock3, Compass, HeartHandshake, KeyRound, UserRoundCheck } from 'lucide-react'
-import { img } from '@/lib/images'
 import { Reveal } from '@/components/ui/Reveal'
 import { Accent } from '@/components/ui/SectionHeader'
 
@@ -23,15 +21,6 @@ export function WhySador() {
           <p className="kicker justify-center text-muted">{t('kicker')}</p>
           <h2 className="mt-5 text-balance text-4xl leading-[1.06] sm:text-5xl">{t.rich('title', { em: (c) => <Accent>{c}</Accent> })}</h2>
           <p className="mt-6 text-lg leading-relaxed text-muted">{t('lede')}</p>
-          <figure className="mx-auto mt-10 flex max-w-xl items-center gap-5 rounded-[2rem] bg-paper p-5 text-left ring-1 ring-line">
-            <div className="relative size-24 shrink-0 overflow-hidden rounded-2xl">
-              <Image src={img('travellers-lalibela')} alt={t('founderAlt')} fill sizes="96px" className="object-cover" />
-            </div>
-            <figcaption>
-              <blockquote className="font-serif text-lg italic leading-snug">“{t('founderQuote')}”</blockquote>
-              <p className="mt-2 text-sm text-muted">{t('founder')}</p>
-            </figcaption>
-          </figure>
         </Reveal>
         <ul className="grid gap-px overflow-hidden rounded-[2rem] bg-line sm:grid-cols-2 lg:grid-cols-3">
           {reasons.map(({ key, Icon }, i) => (
