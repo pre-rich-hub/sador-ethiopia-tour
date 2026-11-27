@@ -30,7 +30,7 @@ export default async function ContactPage({
 
   return (
     <>
-      <PageHero image="lake-tana-ura-kidane-mihret" kicker={t('kicker')} title={t('title')} lede={t('lede')} crumbs={[{ label: tn('home'), href: '/' }, { label: tn('aboutLinks.contact') }]} />
+      <PageHero image="travellers-lalibela" kicker={t('kicker')} title={t('title')} lede={t('lede')} crumbs={[{ label: tn('home'), href: '/' }, { label: tn('aboutLinks.contact') }]} />
       <section className="container-x grid gap-12 py-16 sm:py-24 lg:grid-cols-[1fr_1.5fr] lg:gap-16">
         <Reveal className="space-y-5">
           <div className="rounded-[2rem] bg-ink p-8 text-sand">
