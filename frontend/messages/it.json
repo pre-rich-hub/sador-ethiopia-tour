@@ -1,0 +1,587 @@
+{
+  "Meta": {
+    "title": "Sador Ethiopia Tours — Viaggi privati e in piccoli gruppi in Etiopia",
+    "description": "Viaggi su misura in Etiopia con un operatore locale di Addis Abeba: Lalibela, Gondar, Axum, i monti Simien, la valle dell’Omo, la depressione della Dancalia e le grandi feste etiopi."
+  },
+  "Common": {
+    "skip": "Vai al contenuto",
+    "whatsapp": "Scrivici su WhatsApp",
+    "exploreMore": "Scopri di più",
+    "readMore": "Leggi di più"
+  },
+  "Nav": {
+    "main": "Principale",
+    "home": "Home",
+    "destinations": "Destinazioni",
+    "tours": "Viaggi",
+    "experiences": "Esperienze",
+    "about": "Chi siamo",
+    "blog": "Diario",
+    "plan": "Pianifica il viaggio",
+    "menu": "Menu",
+    "openMenu": "Apri il menu",
+    "closeMenu": "Chiudi il menu",
+    "language": "Cambia lingua",
+    "destinationsBlurb": "Sette regioni, dalle chiese rupestri del nord ai popoli dell’Omo e ai laghi di lava della Dancalia.",
+    "allDestinations": "Tutte le destinazioni",
+    "toursBlurb": "Trentuno itinerari — tour in città, brevi soggiorni, grandi viaggi e partenze per le feste — tutti personalizzabili.",
+    "allTours": "Tutti i viaggi",
+    "experiencesBlurb": "Feste, cucina, fauna, trekking e i dodici siti UNESCO Patrimonio dell’Umanità dell’Etiopia.",
+    "allExperiences": "Tutte le esperienze",
+    "aboutBlurb": "Un operatore familiare di Addis Abeba, fondato su cura, conoscenza del territorio e quindici anni di esperienza come guida.",
+    "ourStory": "La nostra storia",
+    "talkToUs": "Parliamone",
+    "talkBody": "Raccontaci come ami viaggiare — daremo forma all’Etiopia intorno a te.",
+    "exp": {
+      "activities": "Attività",
+      "festivals": "Feste ed eventi",
+      "unesco": "Siti UNESCO Patrimonio dell’Umanità",
+      "family": "Viaggi di ricongiungimento familiare"
+    },
+    "aboutLinks": {
+      "aboutUs": "Chi è Sador",
+      "aboutEthiopia": "L’Etiopia",
+      "blog": "Diario",
+      "contact": "Contatti"
+    },
+    "itin": {
+      "city": "Tour di Addis Abeba",
+      "short": "Tour brevi",
+      "historic-north": "Nord storico",
+      "cultural-south": "Sud culturale",
+      "eastern": "Etiopia orientale",
+      "coffee": "Tour del caffè",
+      "desert": "Spedizione nel deserto",
+      "combination": "Tour combinati"
+    },
+    "act": {
+      "cultural-experience": "Esperienze culturali",
+      "events-and-festivals": "Feste ed eventi",
+      "nature-activities": "Attività nella natura",
+      "outdoor-activities": "Attività all’aperto",
+      "educational-tours": "Viaggi educativi"
+    },
+    "carRental": "Noleggio auto"
+  },
+  "Regions": {
+    "historic-north": {
+      "name": "Nord storico",
+      "short": "Nord storico",
+      "tagline": "Obelischi, castelli e chiese scolpite nella roccia viva"
+    },
+    "cultural-south": {
+      "name": "Sud culturale",
+      "short": "Sud culturale",
+      "tagline": "I laghi della Rift Valley e i popoli dell’Omo"
+    },
+    "addis-ababa": {
+      "name": "Addis Abeba e dintorni",
+      "short": "Addis Abeba",
+      "tagline": "Il “Nuovo Fiore” e i suoi altopiani"
+    },
+    "eastern-ethiopia": {
+      "name": "Etiopia orientale",
+      "short": "Etiopia orientale",
+      "tagline": "Harar la murata, la ferrovia del deserto e i monti Bale"
+    },
+    "afar": {
+      "name": "Regione Afar e spedizioni nel deserto",
+      "short": "Afar e Dancalia",
+      "tagline": "Laghi di lava, distese di sale e la culla dell’umanità"
+    },
+    "coffee-route": {
+      "name": "Via del caffè ed Etiopia occidentale",
+      "short": "Via del caffè",
+      "tagline": "Foreste di caffè selvatico, dove tutto è cominciato"
+    },
+    "eco-villages": {
+      "name": "Migliori villaggi turistici",
+      "short": "Eco-villaggi",
+      "tagline": "Ecoturismo comunitario, riconosciuto nel mondo"
+    }
+  },
+  "Categories": {
+    "city": {
+      "name": "Tour di Addis Abeba",
+      "hint": "Mezza giornata e giornata intera"
+    },
+    "short": {
+      "name": "Escursioni e tour brevi",
+      "hint": "1 – 3 giorni"
+    },
+    "historic-north": {
+      "name": "Nord storico",
+      "hint": "3 – 13 giorni"
+    },
+    "cultural-south": {
+      "name": "Sud culturale",
+      "hint": "8 – 15 giorni"
+    },
+    "eastern": {
+      "name": "Etiopia orientale",
+      "hint": "3 – 4 giorni"
+    },
+    "desert": {
+      "name": "Spedizioni nel deserto",
+      "hint": "6 giorni"
+    },
+    "combination": {
+      "name": "Viaggi combinati",
+      "hint": "11 – 15 giorni"
+    },
+    "festival": {
+      "name": "Feste e fotografia",
+      "hint": "Partenze a data fissa"
+    }
+  },
+  "Footer": {
+    "about": "Sador Ethiopia Tours crea viaggi privati e in piccoli gruppi in tutta l’Etiopia — storia, cultura e natura, organizzati con cura da chi qui è di casa.",
+    "terms": "Termini e condizioni",
+    "rights": "Tutti i diritti riservati.",
+    "stayTitle": "Restiamo in contatto",
+    "stayBody": "Racconti di viaggio, date delle feste e consigli sull’Etiopia, direttamente nella tua casella di posta.",
+    "emailPlaceholder": "La tua e-mail",
+    "subscribe": "Iscriviti",
+    "subscribeSubject": "Iscrizione alla newsletter",
+    "subscribeBody": "Aggiungete {email} alla newsletter di Sador Ethiopia Tours.",
+    "subscribed": "Grazie! Il tuo programma di posta dovrebbe aprirsi — basta premere invia.",
+    "platformsTitle": "Piattaforme di viaggio affidabili",
+    "platformsBody": "Trovateci e recensiteci dove pianificano i viaggiatori esperti.",
+    "payTitle": "Accettiamo",
+    "payBody": "Pagamenti sicuri con carta o PayPal."
+  },
+  "Home": {
+    "partners": "Partner di fiducia",
+    "hero": {
+      "title": "Make Memories",
+      "body": "Viaggi privati e in piccoli gruppi in tutta l’Etiopia — dalle chiese rupestri di Lalibela alle scarpate del Simien, dai popoli della valle dell’Omo ai laghi di lava della Dancalia.",
+      "ctaTours": "Scopri i nostri viaggi",
+      "ctaPlan": "Crea un viaggio su misura",
+      "slides": {
+        "lalibela": "Bete Giorgis, Lalibela",
+        "simien": "Parco nazionale del Simien",
+        "omo": "Donne hamar, valle dell’Omo",
+        "danakil": "Erta Ale, depressione della Dancalia"
+      }
+    },
+    "intro": {
+      "kicker": "Benvenuti in Etiopia",
+      "title": "Tremila anni di storia, <em>un</em> paese straordinario",
+      "body": "L’Etiopia non somiglia a nessun altro luogo. Oltre ottanta popoli con lingue e tradizioni proprie; paesaggi che vanno dalle vette frastagliate del Simien alla depressione della Dancalia, oltre cento metri sotto il livello del mare; e in mezzo, animali e piante che non esistono altrove.",
+      "years": "anni di storia",
+      "img1": "Soffitto dipinto di Debre Birhan Selassie, Gondar",
+      "img2": "Gelada sopra la scarpata del Simien",
+      "img3": "Una tradizionale cerimonia del caffè etiope",
+      "cta": "Scopri l’Etiopia",
+      "pillars": {
+        "history": {
+          "title": "Storia",
+          "body": "Axum, Gondar, Lalibela e le chiese sulle rupi del Tigray."
+        },
+        "culture": {
+          "title": "Cultura",
+          "body": "Feste, cerimonie del caffè e i popoli del sud."
+        },
+        "nature": {
+          "title": "Natura",
+          "body": "Parchi d’alta quota, laghi della Rift Valley e vulcani del deserto."
+        },
+        "tailored": {
+          "title": "Su misura",
+          "body": "Ogni viaggio costruito intorno a te, ai tuoi ritmi e al tuo budget."
+        }
+      }
+    },
+    "featured": {
+      "kicker": "Viaggi in evidenza",
+      "title": "Partenze per cui vale la pena <em>organizzarsi</em>",
+      "lede": "I nostri tour più amati, da mezza giornata ad Addis Abeba al Natale etiope a Lalibela, fino alle spedizioni fotografiche nella valle dell’Omo.",
+      "cta": "Vedi tutti i viaggi"
+    },
+    "regions": {
+      "kicker": "Dove andare",
+      "title": "Sette regioni, scoperte <em>infinite</em>",
+      "lede": "L’Etiopia è grande e meravigliosamente varia. Inizia da una regione — ti aiuteremo a collegarle.",
+      "places": "{count, plural, one {# luogo} other {# luoghi}}"
+    },
+    "styles": {
+      "kicker": "Modi di viaggiare",
+      "title": "Trova il tuo <em>viaggio</em>",
+      "lede": "Scegli uno stile per vedere alcuni dei nostri itinerari. Ognuno può essere adattato, allungato o combinato.",
+      "tablist": "Stili di viaggio",
+      "seeAll": "Vedi tutti: {style}"
+    },
+    "festivals": {
+      "kicker": "Feste ed eventi",
+      "title": "Arriva per i <em>giorni di festa</em>",
+      "lede": "Le grandi feste religiose etiopi sono tra gli spettacoli più emozionanti d’Africa. Organizziamo i viaggi perché tu possa esserci.",
+      "items": {
+        "genna": {
+          "name": "Genna",
+          "when": "7 gennaio",
+          "body": "Il Natale etiope, celebrato tutta la notte tra le chiese rupestri di Lalibela."
+        },
+        "timket": {
+          "name": "Timket",
+          "when": "19 gennaio",
+          "body": "Processioni dei tabot per l’Epifania, con il bagno di Fasilide a Gondar al centro della festa."
+        },
+        "ashenda": {
+          "name": "Ashenda",
+          "when": "Agosto",
+          "body": "Ragazze e giovani donne in abiti ricamati cantano e danzano di casa in casa."
+        },
+        "meskel": {
+          "name": "Meskel",
+          "when": "27 settembre",
+          "body": "Il ritrovamento della Vera Croce, coronato dall’accensione del grande falò Damera."
+        }
+      }
+    },
+    "why": {
+      "kicker": "Perché viaggiare con Sador",
+      "title": "Esperti locali, servizio <em>personale</em>",
+      "lede": "Siamo un piccolo team di Addis Abeba: ogni viaggio è seguito da persone che conoscono personalmente il paese — e i viaggiatori.",
+      "founderAlt": "Viaggiatori di Sador a Lalibela",
+      "founderQuote": "Creare ricordi indimenticabili per ogni viaggiatore che sceglie Sador Ethiopia Tours.",
+      "founder": "Il nostro obiettivo — Sador Ethiopia Tours",
+      "items": {
+        "custom": {
+          "title": "Pacchetti personalizzati",
+          "body": "Itinerari pensati sui tuoi desideri — mai un programma standard."
+        },
+        "experts": {
+          "title": "Consulenti esperti",
+          "body": "Anni di esperienza e profonda conoscenza delle destinazioni, in ogni conversazione."
+        },
+        "service": {
+          "title": "Servizio eccezionale",
+          "body": "Assistenza attenta e personale e soluzioni proattive dall’inizio alla fine."
+        },
+        "support": {
+          "title": "Assistenza 24/7",
+          "body": "Ovunque tu sia in Etiopia, il nostro team è disponibile giorno e notte."
+        },
+        "rates": {
+          "title": "Prezzi migliori",
+          "body": "Prezzi competitivi e trasparenti, senza sorprese."
+        },
+        "access": {
+          "title": "Accesso esclusivo",
+          "body": "Visite private e luoghi nascosti che trasformano un bel viaggio in un viaggio straordinario."
+        }
+      }
+    },
+    "reviews": {
+      "kicker": "Cosa dicono i nostri viaggiatori",
+      "title": "Con le loro <em>parole</em>",
+      "prev": "Recensioni precedenti",
+      "next": "Recensioni successive",
+      "taLatest": "Ultime recensioni su Tripadvisor",
+      "taReadAll": "Leggi tutte le {count} recensioni",
+      "taStars": "Valutazione 5 su 5",
+      "taCount": "{count} recensioni"
+    },
+    "unesco": {
+      "title": "Siti UNESCO <em>Patrimonio dell’Umanità</em>",
+      "lede": "Dagli obelischi di Axum al paesaggio culturale dei Gedeo, l’Etiopia ha una delle liste di patrimonio più ricche d’Africa.",
+      "cta": "Vedi tutti e dodici"
+    },
+    "journal": {
+      "kicker": "Dal diario",
+      "title": "Storie dalla <em>strada</em>",
+      "cta": "Leggi il diario"
+    }
+  },
+  "Cta": {
+    "kicker": "Inizia a pianificare",
+    "title": "La tua Etiopia, <em>a modo tuo</em>",
+    "body": "Raccontaci date, interessi e stile di viaggio. Ti risponderemo con idee e un itinerario su misura — senza impegno.",
+    "primary": "Pianifica il mio viaggio",
+    "whatsapp": "Scrivici su WhatsApp"
+  },
+  "Tours": {
+    "metaTitle": "Tour e itinerari in Etiopia",
+    "metaDescription": "Trentuno itinerari in Etiopia: tour di Addis Abeba, escursioni, il Nord storico, la valle dell’Omo, Harar, la Dancalia e partenze per le feste.",
+    "kicker": "Viaggi",
+    "title": "Tour e itinerari in Etiopia",
+    "lede": "Tour in città, brevi soggiorni e grandi viaggi — ognuno è un punto di partenza che adattiamo alle tue date, ai tuoi ritmi e ai tuoi interessi.",
+    "allStyles": "Tutti",
+    "length": "Durata",
+    "lengths": {
+      "all": "Qualsiasi durata",
+      "day": "Giornalieri",
+      "short": "2 – 5 giorni",
+      "week": "6 – 10 giorni",
+      "long": "11+ giorni"
+    },
+    "count": "{count, plural, =0 {Nessun viaggio} one {# viaggio} other {# viaggi}}",
+    "empty": "Nessun viaggio corrisponde ai filtri — prova un’altra durata o chiedici di crearne uno.",
+    "fixedDeparture": "Data fissa",
+    "from": "Da",
+    "onRequest": "Prezzo su richiesta",
+    "fromPerPerson": "Da, a persona",
+    "basisDouble": "A persona in camera doppia. Il prezzo dipende dalla dimensione del gruppo.",
+    "basisAdult": "Per adulto. Il prezzo varia in base al gruppo.",
+    "onRequestTitle": "Prezzo su richiesta",
+    "onRequestBody": "I prezzi dipendono da date, dimensione del gruppo e hotel. Inviaci una richiesta e ti risponderemo con un preventivo dettagliato.",
+    "duration": "Durata",
+    "departure": "Partenza",
+    "group": "Gruppo",
+    "privateOrGroup": "Privato o piccolo gruppo",
+    "groupPricing": "Prezzi per gruppo",
+    "enquire": "Richiedi questo viaggio",
+    "whatsapp": "Chiedi su WhatsApp",
+    "overview": "Panoramica",
+    "highlights": "Punti salienti",
+    "yourDay": "La tua giornata",
+    "dayByDay": "Giorno per giorno",
+    "itineraryLede": "Il programma del viaggio. Ogni itinerario può essere adattato alle tue esigenze.",
+    "day": "Giorno {n}",
+    "stop": "Tappa {n}",
+    "expandAll": "Espandi tutto",
+    "collapseAll": "Comprimi tutto",
+    "included": "Cosa è incluso",
+    "excluded": "Non incluso",
+    "tailorNote": "Ogni viaggio può essere privato, modificato o combinato con un altro. I prezzi sono indicativi; confermeremo un preventivo per le tue date.",
+    "relatedKicker": "Continua a esplorare",
+    "relatedTitle": "Potrebbe piacerti anche"
+  },
+  "Destinations": {
+    "metaTitle": "Destinazioni in Etiopia",
+    "kicker": "Destinazioni",
+    "title": "Dove andare in Etiopia",
+    "lede": "Sette regioni, ognuna un mondo a sé. Esplora i luoghi che conosciamo e amiamo — poi lascia che li uniamo in un viaggio.",
+    "explore": "Esplora {region}",
+    "journeys": "{count, plural, one {# viaggio} other {# viaggi}} qui",
+    "about": "Su {region}",
+    "placeCount": "{count, plural, one {# luogo} other {# luoghi}} da scoprire",
+    "journeysKicker": "Viaggi",
+    "journeysTitle": "Viaggi che includono {region}",
+    "visitOn": "Visita {place} con questi viaggi",
+    "moreIn": "Altro in {region}",
+    "planVisit": "Pianifica una visita",
+    "groups": {
+      "Parks": "Parchi",
+      "Churches": "Chiese storiche",
+      "Museums": "Musei",
+      "Monuments": "Monumenti",
+      "Nightlife": "Musica e vita notturna",
+      "Daytrips": "Escursioni da Addis"
+    },
+    "keepKicker": "Continua a esplorare",
+    "keepTitle": "Dove andiamo ora?",
+    "previous": "Precedente",
+    "next": "Successivo",
+    "otherRegions": "Altre regioni da scoprire",
+    "allRegions": "Tutte le destinazioni →"
+  },
+  "Activities": {
+    "metaTitle": "Attività ed esperienze in Etiopia",
+    "kicker": "Esperienze",
+    "title": "Cosa fare in Etiopia",
+    "lede": "Feste e pellegrinaggi, foreste di caffè e soggiorni comunitari, trekking, rafting e spedizioni vulcaniche.",
+    "jump": "Vai a una categoria",
+    "more": "Altro: {group}",
+    "journeysKicker": "Viaggi",
+    "journeysTitle": "Viaggi per questa esperienza",
+    "groups": {
+      "events-and-festivals": "Feste ed eventi",
+      "cultural-experience": "Esperienze culturali",
+      "nature-activities": "Natura",
+      "outdoor-activities": "Avventura all’aperto",
+      "activities": "Viaggi educativi"
+    },
+    "groupLedes": {
+      "events-and-festivals": "L’Etiopia segue un proprio calendario, e le sue feste — cristiane, musulmane e tradizionali — colorano tutto l’anno.",
+      "cultural-experience": "Cibo, fede e comunità: le esperienze che ti avvicinano di più alla vita etiope.",
+      "nature-activities": "Fauna endemica, avifauna straordinaria, foreste di caffè selvatico e paesaggi sconfinati.",
+      "outdoor-activities": "Cammina sugli altopiani, scendi i fiumi in rafting, esplora le grotte e affacciati su un vulcano attivo.",
+      "activities": "Viaggi per scuole, università e menti curiose di ogni età."
+    }
+  },
+  "Unesco": {
+    "metaTitle": "I siti UNESCO dell’Etiopia",
+    "kicker": "Patrimonio mondiale",
+    "title": "I 12 siti UNESCO Patrimonio dell’Umanità dell’Etiopia",
+    "lede": "Regni antichi, chiese medievali, città murate, valli preistoriche e due dei grandi parchi montani d’Africa.",
+    "intro1": "L’Etiopia conta dodici beni nella Lista del Patrimonio Mondiale UNESCO — tra i più numerosi d’Africa — che abbracciano milioni di anni di storia umana e alcuni dei paesaggi più importanti del continente.",
+    "intro2": "È anche uno dei grandi hotspot di biodiversità del pianeta, con decine di mammiferi e uccelli endemici e circa mille piante endemiche, protetti in oltre venti parchi nazionali e in numerosi santuari e riserve.",
+    "inscribed": "Iscritto nel {year}",
+    "visit": "Visita {place}"
+  },
+  "AboutEthiopia": {
+    "metaTitle": "L’Etiopia",
+    "kicker": "L’Etiopia",
+    "title": "La terra delle origini",
+    "climateKicker": "Clima",
+    "climateTitle": "Quando andare",
+    "bestTime": "Il periodo migliore"
+  },
+  "About": {
+    "metaTitle": "Chi siamo",
+    "kicker": "Chi siamo",
+    "title": "Viaggi indimenticabili attraverso l’Etiopia",
+    "ctaTours": "Scopri i nostri viaggi",
+    "ctaFamily": "Viaggi di ricongiungimento",
+    "img1": "Viaggiatori di Sador a un pranzo etiope",
+    "magicKicker": "Vivi la magia dell’Etiopia",
+    "magicTitle": "Ciò che amiamo condividere",
+    "commitKicker": "Il nostro impegno",
+    "commitTitle": "Appassionati di viaggi indimenticabili",
+    "goal": "Il nostro obiettivo",
+    "servicesKicker": "I nostri servizi",
+    "servicesTitle": "Ogni modo di viaggiare"
+  },
+  "Family": {
+    "metaTitle": "Viaggi di ricongiungimento familiare",
+    "kicker": "Il viaggio di ritorno",
+    "title": "Viaggi di ricongiungimento familiare in Etiopia",
+    "lede": "Viaggi delicati e pienamente assistiti per persone adottate e famiglie adottive che ritrovano la famiglia biologica in Etiopia.",
+    "cta": "Pianifica il tuo incontro",
+    "expectKicker": "Cosa aspettarsi",
+    "whyKicker": "Perché sceglierci",
+    "whyTitle": "Un viaggio d’amore, guarigione e scoperta",
+    "includedTitle": "Cosa include un viaggio di ricongiungimento",
+    "storiesKicker": "Famiglie che abbiamo accompagnato",
+    "storiesTitle": "Storie di ritorno a casa"
+  },
+  "Contact": {
+    "metaTitle": "Contatti",
+    "kicker": "Contatti",
+    "title": "Pianifichiamo il tuo viaggio",
+    "lede": "Chiedici qualsiasi cosa o raccontaci il viaggio che hai in mente. Di solito rispondiamo entro un giorno lavorativo.",
+    "reachUs": "Contattaci direttamente",
+    "phone": {
+      "hotline": "Linea diretta",
+      "office": "Ufficio"
+    },
+    "email": "E-mail",
+    "whatsapp": "Avvia una chat",
+    "office": "Ufficio",
+    "support": "Durante il viaggio con noi, il nostro team è disponibile 24 ore su 24, 7 giorni su 7, in tutta l’Etiopia.",
+    "mapTitle": "Mappa di Bole, Addis Abeba",
+    "formTitle": "Inviaci un messaggio",
+    "formLede": "Più ci racconti, meglio potremo personalizzare il tuo viaggio."
+  },
+  "Enquiry": {
+    "name": "Nome e cognome",
+    "email": "E-mail",
+    "phone": "Telefono / WhatsApp",
+    "country": "Paese",
+    "tour": "Viaggio che ti interessa",
+    "tailorMade": "Un viaggio su misura",
+    "date": "Mese preferito",
+    "travellers": "Viaggiatori",
+    "message": "Il tuo messaggio",
+    "messagePlaceholder": "Interessi, stile di hotel, occasioni speciali, domande…",
+    "privacy": "I tuoi dati sono usati solo per rispondere alla tua richiesta.",
+    "send": "Invia richiesta",
+    "subject": "Richiesta di viaggio",
+    "sentTitle": "Ci siamo quasi!",
+    "sentBody": "Il tuo programma di posta dovrebbe essere aperto con la richiesta pronta da inviare a {email}. Se non si è aperto, scrivici direttamente o su WhatsApp.",
+    "whatsappInstead": "Scrivici su WhatsApp",
+    "editMessage": "Modifica il messaggio",
+    "carRental": "Noleggio auto (con autista)"
+  },
+  "Blog": {
+    "metaTitle": "Diario",
+    "kicker": "Diario",
+    "title": "Storie dall’Etiopia",
+    "lede": "Feste, ricongiungimenti familiari, musei e strada — scritti dal nostro fondatore e guida, Sisay Tilahun.",
+    "latest": "Ultima storia",
+    "minutes": "{n} min di lettura",
+    "by": "Di {author}",
+    "authorRole": "Fondatore e specialista di viaggio, Sador Ethiopia Tours",
+    "more": "Altre storie"
+  },
+  "Terms": {
+    "title": "Termini e condizioni",
+    "contents": "Indice",
+    "questions": "Domande su queste condizioni? Scrivici a {email}."
+  },
+  "NotFound": {
+    "title": "Questa strada non porta da nessuna parte",
+    "body": "La pagina che cerchi è stata spostata o non esiste. Rimettiamoci in cammino.",
+    "home": "Torna alla home",
+    "tours": "Sfoglia i viaggi"
+  },
+  "Gallery": {
+    "kicker": "Galleria",
+    "title": "{name} in immagini",
+    "count": "{count, plural, one {# foto} other {# foto}}",
+    "more": "Mostra tutte le foto (altre {count})",
+    "open": "Apri la foto {n} di {total}",
+    "close": "Chiudi",
+    "prev": "Foto precedente",
+    "next": "Foto successiva"
+  },
+  "CarRental": {
+    "metaTitle": "Noleggio auto con autista in Etiopia",
+    "kicker": "Noleggio auto",
+    "title": "Veicoli confortevoli per il tuo viaggio",
+    "lede": "4×4 e minibus comodi e ben tenuti, con autisti locali esperti — per un giorno ad Addis Abeba o settimane in giro per l’Etiopia.",
+    "enquire": "Richiedi un preventivo",
+    "fleetKicker": "La nostra flotta",
+    "fleetTitle": "Scegli il tuo veicolo",
+    "fleetLede": "Ogni veicolo è guidato da un autista esperto che conosce le strade etiopi, dal traffico cittadino alle piste del deserto.",
+    "seats": "Fino a {n} passeggeri",
+    "bags": "{n} bagagli",
+    "bestFor": "Ideale per:",
+    "priceOnRequest": "Prezzo su richiesta",
+    "vehicles": {
+      "landcruiser": {
+        "class": "4×4 da spedizione",
+        "name": "Toyota Land Cruiser",
+        "body": "Il classico veicolo da spedizione etiope: robusto, climatizzato e pensato per lunghe distanze su strade difficili.",
+        "bestFor": "Dancalia, valle dell’Omo, monti Simien e Bale"
+      },
+      "prado": {
+        "class": "4×4 comfort",
+        "name": "Toyota Land Cruiser Prado",
+        "body": "Un 4×4 più morbido e raffinato per coppie e piccole famiglie sulla Rotta storica e sulle strade d’altopiano.",
+        "bestFor": "Nord storico, laghi della Rift Valley, escursioni"
+      },
+      "hiace": {
+        "class": "Minivan",
+        "name": "Toyota Hiace",
+        "body": "Un minivan spazioso per famiglie e piccoli gruppi, con spazio per i bagagli su strade asfaltate.",
+        "bestFor": "Tour in città, trasferimenti aeroportuali, Rift Valley"
+      },
+      "coaster": {
+        "class": "Minibus per gruppi",
+        "name": "Toyota Coaster",
+        "body": "Un comodo minibus per gruppi numerosi, gite scolastiche, conferenze e squadre umanitarie.",
+        "bestFor": "Gruppi, eventi, viaggi educativi"
+      }
+    },
+    "includedKicker": "Cosa è incluso",
+    "includedTitle": "Tutto per un viaggio senza pensieri",
+    "included": {
+      "driver": "Autista locale esperto e abilitato",
+      "fuel": "Carburante (su richiesta)",
+      "allowance": "Diaria e alloggio dell’autista",
+      "water": "Acqua in bottiglia ogni giorno",
+      "insurance": "Assicurazione del veicolo",
+      "support": "Assistenza 24/7 dal nostro team di Addis Abeba"
+    },
+    "stepsKicker": "Come funziona",
+    "stepsTitle": "Prenota in tre passaggi",
+    "steps": {
+      "tell": {
+        "title": "Raccontaci i tuoi piani",
+        "body": "Date, itinerario, numero di viaggiatori e veicolo preferito."
+      },
+      "quote": {
+        "title": "Ricevi il preventivo",
+        "body": "Rispondiamo con disponibilità e un prezzo chiaro, di solito entro un giorno lavorativo."
+      },
+      "go": {
+        "title": "Si parte",
+        "body": "Il tuo autista ti accoglie in aeroporto o in hotel, e il nostro team è sempre reperibile."
+      }
+    },
+    "requestCar": "Richiedi questo veicolo",
+    "photoCredits": "Foto:"
+  }
+}
