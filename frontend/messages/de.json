@@ -245,44 +245,40 @@
       "items": {
         "custom": {
           "title": "Individuelle Pakete",
-          "body": "Reiserouten nach Ihren Wünschen – niemals ein Standardprogramm."
+          "body": "Maßgeschneiderte Reiserouten, die zu Ihren Wünschen passen – kein Programm von der Stange."
         },
         "experts": {
           "title": "Erfahrene Berater",
-          "body": "Jahrelange Erfahrung und tiefe Ortskenntnis in jedem Gespräch."
+          "body": "Unser leidenschaftliches Team von Reiseexperten bringt jahrelange Erfahrung und tiefe Ortskenntnis in jedes Gespräch ein und führt Sie zu Ihrem idealen Abenteuer."
         },
         "service": {
           "title": "Außergewöhnlicher Service",
-          "body": "Aufmerksame, persönliche Betreuung und vorausschauende Lösungen von Anfang bis Ende."
+          "body": "Wir legen Wert auf ein wirklich persönliches Erlebnis – mit aufmerksamer Betreuung und vorausschauenden Lösungen von Anfang bis Ende."
         },
         "support": {
           "title": "Hilfe rund um die Uhr",
-          "body": "Wo immer Sie in Äthiopien sind, unser Team ist Tag und Nacht erreichbar."
+          "body": "Wo auch immer Sie auf der Welt sind, unser engagiertes Team ist Tag und Nacht für Sie da."
         },
         "rates": {
-          "title": "Beste Preise",
-          "body": "Faire Preise und ehrlicher Gegenwert, ohne Überraschungen."
+          "title": "Beste Preise & Angebote",
+          "body": "Wir suchen unermüdlich nach den günstigsten Preisen und exklusiven Angeboten, damit Ihre Reise den größtmöglichen Gegenwert bietet."
         },
         "access": {
           "title": "Exklusiver Zugang",
-          "body": "Private Besuche und verborgene Orte, die eine gute Reise außergewöhnlich machen."
+          "body": "Erhalten Sie Zugang zu einzigartigen Erlebnissen, privaten Touren und verborgenen Orten, die eine gute Reise außergewöhnlich machen."
         }
       }
     },
     "reviews": {
       "kicker": "Was unsere Reisenden sagen",
-      "title": "In ihren <em>eigenen Worten</em>",
       "prev": "Vorherige Bewertungen",
       "next": "Nächste Bewertungen",
-      "taLatest": "Neueste Bewertungen auf Tripadvisor",
-      "taReadAll": "Alle {count} Bewertungen lesen",
       "taStars": "Bewertet mit 5 von 5",
-      "taCount": "{count} Bewertungen"
-    },
-    "unesco": {
-      "title": "UNESCO-<em>Welterbestätten</em>",
-      "lede": "Von den Obelisken Axums bis zur Kulturlandschaft der Gedeo – Äthiopien hat eine der reichsten Welterbelisten Afrikas.",
-      "cta": "Alle zwölf ansehen"
+      "excellent": "Ausgezeichnet",
+      "basedOn": "Basierend auf <b>{count} Bewertungen</b>",
+      "viewAll": "Alle Tripadvisor-Bewertungen ansehen",
+      "readMore": "Ganze Bewertung lesen",
+      "readLess": "Weniger anzeigen"
     },
     "journal": {
       "kicker": "Aus dem Journal",

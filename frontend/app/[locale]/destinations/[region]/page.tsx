@@ -68,7 +68,7 @@ export default async function RegionPage({ params }: Props) {
                 <span className="h-px flex-1 bg-line" />
               </Reveal>
             )}
-            <div className="grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
               {places
                 .filter((p) => (p.group ?? '') === g)
                 .map((p, i) => (

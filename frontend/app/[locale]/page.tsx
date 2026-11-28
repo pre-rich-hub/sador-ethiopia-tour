@@ -8,7 +8,6 @@ import { JourneysByStyle } from '@/features/home/JourneysByStyle'
 import { FestivalsBand } from '@/features/home/FestivalsBand'
 import { WhySador } from '@/features/home/WhySador'
 import { Testimonials } from '@/components/sections/Testimonials'
-import { UnescoStrip } from '@/features/home/UnescoStrip'
 import { PlanCta } from '@/components/sections/PlanCta'
 import { SectionHeader, Accent } from '@/components/ui/SectionHeader'
 import { JsonLd, organizationLd } from '@/components/seo/JsonLd'
@@ -38,9 +37,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </section>
       <FestivalsBand />
-      <WhySador />
       <Testimonials />
-      <UnescoStrip />
+      <WhySador />
       <PlanCta />
     </>
   )

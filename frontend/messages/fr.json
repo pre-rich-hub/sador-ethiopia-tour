@@ -245,44 +245,40 @@
       "items": {
         "custom": {
           "title": "Circuits personnalisés",
-          "body": "Des itinéraires conçus selon vos souhaits — jamais un programme standard."
+          "body": "Des itinéraires sur mesure, conçus selon vos envies, et non un programme unique pour tous."
         },
         "experts": {
           "title": "Conseillers experts",
-          "body": "Des années d’expérience et une connaissance approfondie du terrain, à chaque échange."
+          "body": "Notre équipe passionnée d’experts du voyage apporte des années d’expérience et une connaissance approfondie de la destination à chaque échange, pour vous guider vers l’aventure idéale."
         },
         "service": {
           "title": "Service exceptionnel",
-          "body": "Un accompagnement attentif et des solutions proactives du début à la fin."
+          "body": "Nous sommes fiers d’offrir une expérience vraiment personnalisée, avec un accompagnement attentif et des solutions proactives du début à la fin."
         },
         "support": {
           "title": "Assistance 24h/24",
-          "body": "Où que vous soyez en Éthiopie, notre équipe est joignable jour et nuit."
+          "body": "Où que vous soyez dans le monde, notre équipe dédiée est disponible jour et nuit pour vous aider."
         },
         "rates": {
-          "title": "Meilleurs tarifs",
-          "body": "Des prix compétitifs et transparents, sans mauvaise surprise."
+          "title": "Meilleurs tarifs et offres",
+          "body": "Nous recherchons sans relâche les prix les plus compétitifs et les offres exclusives, pour que votre voyage vous offre le meilleur rapport qualité-prix."
         },
         "access": {
           "title": "Accès exclusif",
-          "body": "Visites privées et lieux secrets qui transforment un beau voyage en voyage extraordinaire."
+          "body": "Accédez à des expériences uniques, des visites privées et des lieux secrets qui transforment un beau voyage en voyage extraordinaire."
         }
       }
     },
     "reviews": {
       "kicker": "Ce que disent nos voyageurs",
-      "title": "Avec leurs <em>propres mots</em>",
       "prev": "Avis précédents",
       "next": "Avis suivants",
-      "taLatest": "Derniers avis sur Tripadvisor",
-      "taReadAll": "Lire les {count} avis",
       "taStars": "Note : 5 sur 5",
-      "taCount": "{count} avis"
-    },
-    "unesco": {
-      "title": "Sites du patrimoine mondial de l’<em>UNESCO</em>",
-      "lede": "Des obélisques d’Axoum au paysage culturel gedeo, l’Éthiopie possède l’une des plus riches listes patrimoniales d’Afrique.",
-      "cta": "Voir les douze sites"
+      "excellent": "Excellent",
+      "basedOn": "Sur la base de <b>{count} avis</b>",
+      "viewAll": "Voir tous les avis Tripadvisor",
+      "readMore": "Lire l’avis complet",
+      "readLess": "Voir moins"
     },
     "journal": {
       "kicker": "Le journal",

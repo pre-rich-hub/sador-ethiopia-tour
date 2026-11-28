@@ -245,44 +245,40 @@
       "items": {
         "custom": {
           "title": "Paquetes personalizados",
-          "body": "Itinerarios diseñados según tus deseos — nunca un plan estándar."
+          "body": "Itinerarios a medida, diseñados según tus deseos, no un plan igual para todos."
         },
         "experts": {
           "title": "Asesores expertos",
-          "body": "Años de experiencia y un profundo conocimiento del destino en cada conversación."
+          "body": "Nuestro apasionado equipo de expertos en viajes aporta años de experiencia y un profundo conocimiento del destino a cada conversación, guiándote hacia tu aventura ideal."
         },
         "service": {
           "title": "Servicio excepcional",
-          "body": "Atención cercana y soluciones proactivas de principio a fin."
+          "body": "Nos enorgullece ofrecer una experiencia verdaderamente personalizada, con una atención cercana y soluciones proactivas de principio a fin."
         },
         "support": {
           "title": "Asistencia 24/7",
-          "body": "Estés donde estés en Etiopía, nuestro equipo está disponible a cualquier hora."
+          "body": "Estés donde estés en el mundo, nuestro equipo de asistencia está disponible a cualquier hora para ayudarte."
         },
         "rates": {
-          "title": "Mejores precios",
-          "body": "Precios competitivos y transparentes, sin sorpresas."
+          "title": "Mejores precios y ofertas",
+          "body": "Buscamos sin descanso los precios más competitivos y ofertas exclusivas, para que tu inversión en viajes rinda al máximo."
         },
         "access": {
           "title": "Acceso exclusivo",
-          "body": "Visitas privadas y lugares ocultos que convierten un buen viaje en uno extraordinario."
+          "body": "Accede a experiencias únicas, visitas privadas y lugares ocultos que convierten un buen viaje en uno extraordinario."
         }
       }
     },
     "reviews": {
       "kicker": "Lo que dicen nuestros viajeros",
-      "title": "En sus <em>propias palabras</em>",
       "prev": "Opiniones anteriores",
       "next": "Opiniones siguientes",
-      "taLatest": "Últimas opiniones en Tripadvisor",
-      "taReadAll": "Leer las {count} opiniones",
       "taStars": "Valoración 5 de 5",
-      "taCount": "{count} opiniones"
-    },
-    "unesco": {
-      "title": "Patrimonio Mundial de la <em>UNESCO</em>",
-      "lede": "De los obeliscos de Axum al paisaje cultural de Gedeo, Etiopía tiene una de las listas de patrimonio más ricas de África.",
-      "cta": "Ver los doce"
+      "excellent": "Excelente",
+      "basedOn": "Basado en <b>{count} opiniones</b>",
+      "viewAll": "Ver todas las opiniones en Tripadvisor",
+      "readMore": "Leer opinión completa",
+      "readLess": "Ver menos"
     },
     "journal": {
       "kicker": "Del diario",

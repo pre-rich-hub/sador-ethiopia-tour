@@ -244,45 +244,41 @@
       "lede": "Based in Addis Ababa, our team of experienced Ethiopian specialists plans and runs every journey end to end, with expert guides who know the country inside out and personal care for every traveller.",
       "items": {
         "custom": {
-          "title": "Customised packages",
-          "body": "Itineraries designed around your wishes — never a one-size-fits-all plan."
+          "title": "Customised Packages",
+          "body": "Tailored itineraries designed to match your desires, not a one-size-fits-all plan."
         },
         "experts": {
-          "title": "Expert advisors",
-          "body": "Years of experience and deep destination knowledge, in every conversation."
+          "title": "Expert Advisors",
+          "body": "Our passionate team of travel experts brings years of experience and deep destination knowledge to every conversation, guiding you towards your ideal adventure."
         },
         "service": {
-          "title": "Exceptional service",
-          "body": "Attentive, personal support and proactive solutions from start to finish."
+          "title": "Exceptional Service",
+          "body": "We pride ourselves on delivering a truly personalised experience, offering attentive support and proactive solutions from start to finish."
         },
         "support": {
-          "title": "24/7 support",
-          "body": "Wherever you are in Ethiopia, our team is available around the clock."
+          "title": "24/7 Support",
+          "body": "No matter where you are in the world, our dedicated support team is available around the clock to assist you."
         },
         "rates": {
-          "title": "Best rates",
-          "body": "Competitive prices and honest value, with no surprises."
+          "title": "Best Rates & Deals",
+          "body": "We tirelessly search for the most competitive prices and exclusive offers, ensuring you get the most value for your travel investment."
         },
         "access": {
-          "title": "Exclusive access",
-          "body": "Private visits and hidden places that turn a good trip into an extraordinary one."
+          "title": "Exclusive Access",
+          "body": "Gain entry to unique experiences, private tours and hidden places that transform a good trip into an extraordinary one."
         }
       }
     },
     "reviews": {
       "kicker": "What our travellers say",
-      "title": "In their <em>own words</em>",
       "prev": "Previous reviews",
       "next": "Next reviews",
-      "taLatest": "Latest reviews on Tripadvisor",
-      "taReadAll": "Read all {count} reviews",
       "taStars": "Rated 5 of 5",
-      "taCount": "{count} reviews"
-    },
-    "unesco": {
-      "title": "UNESCO World Heritage <em>Sites</em>",
-      "lede": "From the obelisks of Axum to the cultural landscape of Gedeo, Ethiopia has one of the richest heritage lists in Africa.",
-      "cta": "See all twelve"
+      "excellent": "Excellent",
+      "basedOn": "Based on <b>{count} reviews</b>",
+      "viewAll": "View all Tripadvisor reviews",
+      "readMore": "Read full review",
+      "readLess": "Show less"
     },
     "journal": {
       "kicker": "From the journal",
